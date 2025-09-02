@@ -14,14 +14,17 @@
   background-color: #2f2f2fe0;
   color: white;
   font-weight: bolder;
+  border:0.1rem solid black;
 }
 
 button {
   height: 2.19rem;
   width: 6.5rem;
   border-radius: 0 1rem 1rem 0;
-  background-color: cyan;
-  margin-left: -10px;
+  background-color: green;
+  border:0.1rem solid black;
+  margin-left:-0.1rem;
+ 
 }
 
 #range-box {
@@ -83,7 +86,7 @@ input[type="checkbox"]:checked::after {
 }
 
 button:hover {
-  background-color: green;
+  background-color: red;
   cursor: pointer;
 }
 
@@ -92,7 +95,7 @@ button:hover {
    #container{
     width:100%;
     margin-top:2rem;
-    background-color: cyan;
+    background-color: rgba(0, 255, 255, 0.614);
    }
 
    #showContent{
@@ -165,7 +168,7 @@ button:hover {
     width: 30rem;
     display: flex;
    flex-direction: column;
-   background-color: cyan;
+   background-color: rgba(91, 122, 122, 0.443);
     padding-left: 1.5rem;
     border-radius: 1rem;
   }
